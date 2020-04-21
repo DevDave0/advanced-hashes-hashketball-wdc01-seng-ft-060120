@@ -227,7 +227,7 @@ def big_shoe_rebounds
   counter = 0 
   while counter <shoes.length do
   if max_shoe_size < shoes[counter]
-    max_shoe_size = 
+    max_shoe_size = shoe[counter]
   
   
 end 
