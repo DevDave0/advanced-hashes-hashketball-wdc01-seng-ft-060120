@@ -224,6 +224,8 @@ def big_shoe_rebounds
     shoes << playerhash[:shoe]
   end 
   
+  counter = 0 
+  while counter <
   shoes
   
   
