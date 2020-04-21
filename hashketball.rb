@@ -218,12 +218,16 @@ end
 
 
 def big_shoe_rebounds
-  
-  player_helper
+  shoes_sizes = []
+  player_helper.each do |playerhash|
+    shoe_sizes << playerhash[:shoe]
+  end 
+  shoes_sizes
   
   
 end 
 
+binding.pry 
 
 
 
