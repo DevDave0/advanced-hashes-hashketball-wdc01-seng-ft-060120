@@ -220,7 +220,7 @@ end
 def big_shoe_rebounds
   shoes = []
   player_helper.each do |playerhash|
-    shoe << playerhash[:shoe]
+    shoes << playerhash[:shoe]
   end 
   shoes
   
