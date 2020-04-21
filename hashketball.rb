@@ -221,6 +221,7 @@ def big_shoe_rebounds
   shoes = []
   max_shoe_size = -1 
   counter = 0 
+  result = 0 
   player_helper.each do |playerhash|
     shoes << playerhash[:shoe]
   end 
@@ -232,7 +233,13 @@ def big_shoe_rebounds
     end 
     counter +=1 
   end 
-  max_shoe_size
+
+  player_helper.each do |playerhash|
+    if playerhash[:shoe] == max_shoe_size
+      result = playerhash[:rebounds]
+    end 
+  end 
+  result 
   
 end 
 
