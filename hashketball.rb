@@ -225,7 +225,7 @@ def big_shoe_rebounds
   end 
   
   counter = 0 
-  while counter <shoes.length
+  while counter <shoes.length do
   shoes
   
   
